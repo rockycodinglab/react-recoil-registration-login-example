@@ -2,7 +2,7 @@
     "name": "react-recoil-registration-login-example",
     "version": "0.1.0",
     "engines": {
-        "node": "18.x"
+        "node": "16.x"
       },
     "dependencies": {
         "@hookform/resolvers": "^2.8.0",

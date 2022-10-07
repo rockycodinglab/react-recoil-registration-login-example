@@ -16,7 +16,9 @@ function Nav() {
     return (
         <nav className="navbar navbar-expand navbar-dark bg-dark">
             <div className="navbar-nav">
-                <NavLink exact to="/" className="nav-item nav-link">Home</NavLink>
+               
+            <NavLink exact to="/" className="nav-item nav-link">Home</NavLink>
+            <NavLink  to="/stocks" className="nav-item nav-link">Stocks</NavLink>
               
                 <a onClick={userActions.logout} className="nav-item nav-link">Logout</a>
             </div>

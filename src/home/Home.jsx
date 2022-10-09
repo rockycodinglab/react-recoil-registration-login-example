@@ -13,7 +13,7 @@ function Home() {
             <div className="container">
                 <h1>Hi {auth?.firstName}!</h1>
                 
-                <a  href="https://www.google.ca/">Manage Your Stocks</a>
+                <a  href="https://node-react-stock-web.herokuapp.com">Manage Your Stocks</a>
             </div>
         </div>
     );
